@@ -1,0 +1,1 @@
+export const CONTENTFUL_URI = `https://graphql.contentful.com/content/v1/spaces/${process.env.NEXT_PUBLIC_CONTENTFUL_SPACEID}/environments/${process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT_ID}?access_token=${process.env.NEXT_PUBLIC_CONTENTFUL_TOKEN}`
