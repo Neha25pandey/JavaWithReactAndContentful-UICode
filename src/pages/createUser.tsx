@@ -20,22 +20,22 @@ export const CreateUser = ({handleChange,saveUser,createUser,userObj}:ToggleProp
 				<div className="grid-flow-row">
   	<label className="grid-cols-1">
     First Name     :  
-    <input type="text" id ="firstName" name="firstName" onChange={(e)=>handleChange(e)}   className="grid-flow-row border-gray-300 border-solid border-2 m-4 px-2"/>
+    <input type="text" id ="firstName" name="firstName" onChange={(e)=>handleChange(e)} placeholder="Enter First Name"  className="grid-flow-row border-gray-300 border-solid border-2 m-4 px-2"/>
 		</label>
 	<label className="grid-cols-1">
     Last Name    : 
-    <input type="text" name="lastName" onChange={(e)=>handleChange(e)}   className="grid-flow-row border-gray-300 border-solid border-2 m-4 px-2"/>
+    <input type="text" name="lastName" onChange={(e)=>handleChange(e)}  placeholder="Enter Last Name" className="grid-flow-row border-gray-300 border-solid border-2 m-4 px-2"/>
   </label>
 	</div>
 	
 	<div className="grid-flow-row">
   	<label className="grid-cols-1">
     Email                  :  
-    <input type="text" name="email" onChange={(e)=>handleChange(e)}   className="grid-flow-row border-gray-300 border-solid border-2 m-4 ml-14 px-2"/>
+    <input type="text" name="email" onChange={(e)=>handleChange(e)} placeholder="Enter Email"  className="grid-flow-row border-gray-300 border-solid border-2 m-4 ml-14 px-2"/>
 		</label>
 	<label className="grid-cols-1">
     Role    : 
-    <input type="text" name="role" onChange={(e)=>handleChange(e)}  className="grid-flow-row border-gray-300 border-solid border-2 m-4 ml-14 px-2"/>
+    <input type="text" name="role" onChange={(e)=>handleChange(e)} placeholder="Enter Role" className="grid-flow-row border-gray-300 border-solid border-2 m-4 ml-14 px-2"/>
   </label>
 	</div>
 	
